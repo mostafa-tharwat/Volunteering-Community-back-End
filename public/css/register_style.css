@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boxright
+{
+    background: #557791;
+    height: 650px;
+}
+.boxright h1
+{
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+}
+.boxright p
+{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.boxright img
+{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 30%;
+    padding-top: 30px;
+}
+.boxleft
+{
+    height: 650px;
+    background: #eeeeee;
+}
+.box
+{
+    background: white;
+    border-color: white;
+    box-shadow: 0px 0px 20px grey, -0px -0px 20px grey;
+    width: 75%;
+    height: 90%;
+    position: relative;
+    left: 13%;
+    top: 5%;
+    padding-left: 30px;
+}
+.box h1
+{
+    padding-top: 10%;
+    padding-left: 3%;
+    text-shadow: 2px 2px 5px grey
+}
+.box input
+{
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 18px;
+    line-height: 3.5;
+    font-family:monospace;
+    left: 20px;
+}
+.box button
+{
+    background: #557791;
+    color: white;
+    border-radius: 1px;
+    padding-left: 3%;
+    padding: 4px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border-radius: 3px;
+}
+
+.box button a{
+    text-decoration: none;
+    color: white;
+}
+
+#link
+{
+    color: #557791;
+    padding-left: 30px;
+    color: #557791;
+    font-size: 15px;
+}

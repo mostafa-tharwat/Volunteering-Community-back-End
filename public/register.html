@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.js"/>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/register_style.css"/>
+    </head>
+    <body>
+        <div class="bigbox">
+                <div class="row no-gutters">
+                    <div class="col-lg-6 col-md-6 d-none d-md-block ">
+                        <div class="boxright">
+                        <h1>Volunteering Community</h1>
+                        <img src="imgs/45235950_1968361586578083_513910180044341248_n.png">
+                        <p>follow us on</p>
+                        </div>    
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-md-6">
+
+                        <div class="boxleft" >
+                            <div class="box" >
+                            <h1>Register</h1>
+                                <form action="http://localhost:8000/get_register"method="get">
+
+                            <input type="text" maxlength="10" placeholder="First & Last name"  name="firstlastname">
+                            <br>
+                            <input type="password" maxlength="10" placeholder="Password" id="password" name="password">
+                            <br>
+                            <input type="email" maxlength="10" placeholder="Email@" id="email" name="email">
+                            <br>
+                            <input type="radio" name="gender" id="male" value="male"    >
+                            <label>Volunteer</label>
+                            <input type="radio" name="gender" id="female" value="female"  >
+                            <label>Organization</label> 
+                            <br>
+                            <input type="checkbox">
+                            <label>Accept Terms &amp; Conditions</label>
+                                </form>
+                            <a id=link href="log-in.html">Already have an account</a>
+                            <br>
+                            <button><a href="get_register" >Join now</a></button>
+
+
+                            </div>
+                       </div>
+
+                    </div>
+               </div>
+        </div>
+
+    </body>
+</html>
